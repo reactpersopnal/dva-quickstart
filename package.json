@@ -7,11 +7,15 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
     "antd": "^3.9.2",
     "babel-plugin-import": "^1.9.1",
     "dva": "^2.4.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.1.1"
   },
   "devDependencies": {
     "babel-plugin-dva-hmr": "^0.3.2",
